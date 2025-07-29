@@ -24,3 +24,6 @@ zstandard>=0.22
 
 # 📦 Compact Binary Serialization (for efficient message passing)
 msgpack>=1.0
+
+fastapi
+uvicorn[standard]
