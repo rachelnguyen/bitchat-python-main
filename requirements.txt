@@ -1,0 +1,26 @@
+# BitChat Python Client Requirements
+
+# ⛓️ Standard Python Libraries (do NOT include in pip install)
+# asyncio, sys, os, time, json, uuid, struct, hashlib, random
+
+# 🔌 Async CLI and Console Support
+aioconsole>=0.6
+
+# 📡 Bluetooth Low Energy Support
+bleak>=0.22
+
+# 🌱 Efficient Bloom Filter Implementation (for deduplication)
+pybloom_live>=4.0
+
+# 🔐 Cryptographic Primitives & Key Management
+cryptography>=42.0
+
+# 🌀 Noise Protocol Framework (used for secure P2P encryption)
+noiseprotocol>=0.3
+
+# 🗜️ Compression for Messaging
+lz4>=4.3
+zstandard>=0.22
+
+# 📦 Compact Binary Serialization (for efficient message passing)
+msgpack>=1.0
